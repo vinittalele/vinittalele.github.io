@@ -101,19 +101,15 @@
 						<header>
 							<h3>Control Systems</h3>
 							<p>
-							I am responsible for semi-active suspension control. My team and I are collaborating with Fox Factory to develop a predictive semi-active suspension that makes use of LiDARS to detect upcoming terrain features and adjust the suspension stiffnesses of the vehicle to provide improved ride comfort. We are in the process of development of a skyhook control scheme to control the stiffnesses of all four dampers. We follow a multi-tier control architecture which simplifies to - Supervisory Control, High-Level Control and Low-Level Control.<br />
-
-							The Supervisor Control mainly consists of State-Flow Chart. This chart checks and handles the transition for different states in the system. If a state becomes abnormal then a fault is triggered which either shutsdown the vehicle or overrides the suspension to a certain value depending on the criticality of the failure. Each fault is assigned a number as an identfier to allow or quick fault cause.<br />
-
-							The High-level Control consists of a conditional statement which is swtiched based on the subsystem state output by the Supervisor. This includes operations like making the suspension stiff if the vehicle is airborne to prevent bottoming out the suspension.<br />
-
-							The Low-level Control consists of the acutator dynamics. The dampers used are controlled through a proportioning valve which regulates the fluid flow inside the damper based on the current supplied to it. This models incorporates valve delay that is required to track or maintain a reference current value.
+							I am responsible for semi-active suspension control. My team and I are collaborating with Fox Factory to develop a predictive semi-active suspension that makes use of LiDARS to detect upcoming terrain features and adjust the suspension stiffnesses of the vehicle to provide improved ride comfort. We are in the process of development of a skyhook control scheme to control the stiffnesses of all four dampers.<br />
 							</p>
 						</header>
 						<p>At Deep Orange, I am responsible for the development of control system for a semi-active suspension and an electro-hydraulic steering system. Additionally I am involved in the design and manufacturing of the Independent Front Suspension of 21" of wheel travel. Along with the suspension, I also work in the design and development of an electro-hydraulic steering system which operates at 400V. This also includes developing steering control strategies.</p>
+						<!--
 						<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul>
+						-->
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
 				</section>
@@ -122,14 +118,20 @@
 				<section id="three" class="spotlight style3 left">
 					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
 					<div class="content">
-						<header>
-							<h2>Interdum felis blandit praesent sed augue</h2>
-							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
-						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<p>
+						We follow a multi-tier control architecture which simplifies to - Supervisory Control, High-Level Control and Low-Level Control.<br />
+
+						The Supervisor Control mainly consists of State-Flow Chart. This chart checks and handles the transition for different states in the system. If a state becomes abnormal then a fault is triggered which either shutsdown the vehicle or overrides the suspension to a certain value depending on the criticality of the failure. Each fault is assigned a number as an identfier to allow or quick fault cause.<br />
+
+						The High-level Control consists of a conditional statement which is swtiched based on the subsystem state output by the Supervisor. This includes operations like making the suspension stiff if the vehicle is airborne to prevent bottoming out the suspension.<br />
+
+						The Low-level Control consists of the acutator dynamics. The dampers used are controlled through a proportioning valve which regulates the fluid flow inside the damper based on the current supplied to it. This models incorporates valve delay that is required to track or maintain a reference current value.
+						</p>
+						<!--
 						<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul>
+						-->
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
 				</section>
