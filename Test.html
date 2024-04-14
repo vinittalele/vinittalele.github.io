@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Vinit Talele - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Portfolio Overview</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">Resume</a>
+								<!--
+								<ul>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul>
+									</li>
+								</ul>
+								-->
+							</li>
+							<!--
+							<li><a href="elements.html">Elements</a></li>
+							<li><a href="#" class="button primary">Sign Up</a></li>
+							-->
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Vinit Talele</h2>
+							<p>Automotive Engineering Portfolio.<br />
+								vtalele@g.clemson.edu<br />
+								vinittalele1@gmail.com<br />
+								+1(864)-518-4614
+							</p>
+						</header>
+						<span class="image"><img src="photos/Vinit_Talele.jpg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<!--
+						Insert clip arts of Controls, Suspension, Steering and Powrtrain
+					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+					-->
+					<div class="content">
+						<div class="container">
+							<div class="col-6">
+								<div class="col-4 col-8-medium">
+									<header>
+										<h2>About Me</h2>
+									</header>
+								</div>
+								<div class="col-4 col-8-medium">
+									<p>
+										I am an automotive engineering student specializing in Vehicle Dynamics and Controls, set to graduate in August 2024. My background is rooted in Automotive Engineering, with a focus on developing control strategies for vehicle systems, designing and manufacturing vehicle suspension, and powertrain components. My journey in automotive engineering began as an Electric Powertrain Engineer for my university's Formula Student team during my undergrad. Since then, I have progressed to work on the vehicle dynamics of an Autonomous Off-road vehicle, gaining valuable testing experience along the way. I am dedicated to advancing automotive technology and thrive in collaborative environments, where I can contribute my skills and knowledge to innovative projects in the field. 
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="photos/soft_ride_home_flowchart.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Automotive Experience</h2>
+							<p>VIPR-GS funded Vehicle Dynamics and Controls Intern at Deep Orange</p>
+							<!-- Deep Orange Overview -->
+						</header>
+						<header>
+							<h3>Control Systems</h3>
+							<p>
+							I am responsible for semi-active suspension control. My team and I are collaborating with Fox Factory to develop a predictive semi-active suspension that makes use of LiDARS to detect upcoming terrain features and adjust the suspension stiffnesses of the vehicle to provide improved ride comfort. We are in the process of development of a skyhook control scheme to control the stiffnesses of all four dampers.<br />
+							</p>
+						</header>
+						<p>At Deep Orange, I am responsible for the development of control system for a semi-active suspension and an electro-hydraulic steering system. Additionally I am involved in the design and manufacturing of the Independent Front Suspension of 21" of wheel travel. Along with the suspension, I also work in the design and development of an electro-hydraulic steering system which operates at 400V. This also includes developing steering control strategies.</p>
+						<!--
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+						-->
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom">
+						<video controls>
+							<source src="videos/Deep_Orange_14.mp4" type="video/mp4" />
+							Your browser does not support video tag.
+						</video>
+					</span>
+					<div class="content">
+						<p>
+						We follow a multi-tier control architecture which simplifies to - Supervisory Control, High-Level Control and Low-Level Control.<br />
+
+						Supervisory Control contains blocks that control the high-level transition of the states of the Suspension subsystem. It uses a State-Flow Chart that publishes the states of the sub-system to the Suspension subsystem bus.
+
+						The Supervisor Control mainly consists of State-Flow Chart. This chart checks and handles the transition for different states in the system. If a state becomes abnormal then a fault is triggered which either shutsdown the vehicle or overrides the suspension to a certain value depending on the criticality of the failure. Each fault is assigned a number as an identfier to allow or quick fault cause.<br />
+
+						The High-level Control contains blocks that send out commands based on the state the system is in. A switch block which transitions between the different operating modes of the subsytem. This includes operations like making the suspension stiff if the vehicle is airborne to prevent bottoming out the suspension.<br />
+
+						The Low-level Control consists of the acutator dynamics. The dampers used are controlled through a proportioning valve which regulates the fluid flow inside the damper based on the current supplied to it. This models incorporates valve delay that is required to track or maintain a reference current value.
+						</p>
+						<!--
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+						-->
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Accumsan sed tempus adipiscing blandit</h2>
+							<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+						</header>
+						<div class="box alt">
+							<div class="row gtr-uniform">
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-chart-area"></span>
+									<h3>Ipsum sed commodo</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-comment"></span>
+									<h3>Eleifend lorem ornare</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-flask"></span>
+									<h3>Cubilia cep lobortis</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-paper-plane"></span>
+									<h3>Non semper interdum</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-file"></span>
+									<h3>Odio laoreet accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-lock"></span>
+									<h3>Massa arcu accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+							</div>
+						</div>
+						<footer class="major">
+							<ul class="actions special">
+								<li><a href="#" class="button">Magna sed feugiat</a></li>
+							</ul>
+						</footer>
+					</div>
+				</section>
+
+			<!-- Five -->
+				<section id="five" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>Magna faucibus lorem diam</h2>
+							<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+						</header>
+						<form method="post" action="#" class="cta">
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
+								<div class="col-4 col-12-xsmall"><input type="submit" value="Get Started" class="fit primary" /></div>
+							</div>
+						</form>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
