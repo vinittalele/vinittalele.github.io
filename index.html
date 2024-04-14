@@ -116,14 +116,16 @@
 
 			<!-- Three -->
 				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<span class="image fit main bottom"><video src="videos/Deep_Orange_14.mp4" alt="" /></span>
 					<div class="content">
 						<p>
 						We follow a multi-tier control architecture which simplifies to - Supervisory Control, High-Level Control and Low-Level Control.<br />
 
+						Supervisory Control contains blocks that control the high-level transition of the states of the Suspension subsystem. It uses a State-Flow Chart that publishes the states of the sub-system to the Suspension subsystem bus.
+
 						The Supervisor Control mainly consists of State-Flow Chart. This chart checks and handles the transition for different states in the system. If a state becomes abnormal then a fault is triggered which either shutsdown the vehicle or overrides the suspension to a certain value depending on the criticality of the failure. Each fault is assigned a number as an identfier to allow or quick fault cause.<br />
 
-						The High-level Control consists of a conditional statement which is swtiched based on the subsystem state output by the Supervisor. This includes operations like making the suspension stiff if the vehicle is airborne to prevent bottoming out the suspension.<br />
+						The High-level Control contains blocks that send out commands based on the state the system is in. A switch block which transitions between the different operating modes of the subsytem. This includes operations like making the suspension stiff if the vehicle is airborne to prevent bottoming out the suspension.<br />
 
 						The Low-level Control consists of the acutator dynamics. The dampers used are controlled through a proportioning valve which regulates the fluid flow inside the damper based on the current supplied to it. This models incorporates valve delay that is required to track or maintain a reference current value.
 						</p>
