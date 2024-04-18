@@ -117,26 +117,11 @@
 				</section>
 
 			<!-- Three -->
-				<section class="spotlight style3 left">
-					<span class="image fit main"><img src="videos/DO14_edit.gif" alt="" /></span>> 
-				</section>
 				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"> 
-						<video controls autoplay muted src="https://github.com/vinittalele/vinittalele.github.io/raw/main/videos/DO14_edit.mp4?raw=true">
-							<source src="https://github.com/vinittalele/vinittalele.github.io/raw/main/videos/DO14_edit.mp4?raw=true" type="video/mp4" />
-						</video>
-					</span> 
+					<span class="image fit main"><img src="photos/soft_ride_home_flowchart.jpg" alt="" /></span> 
 					<div class="content">
 						<p>
-						We follow a multi-tier control architecture which simplifies to - Supervisory Control, High-Level Control and Low-Level Control.<br />
-
-						Supervisory Control contains blocks that control the high-level transition of the states of the Suspension subsystem. It uses a State-Flow Chart that publishes the states of the sub-system to the Suspension subsystem bus.
-
-						The Supervisor Control mainly consists of State-Flow Chart. This chart checks and handles the transition for different states in the system. If a state becomes abnormal then a fault is triggered which either shutsdown the vehicle or overrides the suspension to a certain value depending on the criticality of the failure. Each fault is assigned a number as an identfier to allow or quick fault cause.<br />
-
-						The High-level Control contains blocks that send out commands based on the state the system is in. A switch block which transitions between the different operating modes of the subsytem. This includes operations like making the suspension stiff if the vehicle is airborne to prevent bottoming out the suspension.<br />
-
-						The Low-level Control consists of the acutator dynamics. The dampers used are controlled through a proportioning valve which regulates the fluid flow inside the damper based on the current supplied to it. This models incorporates valve delay that is required to track or maintain a reference current value.
+							One of our USPs is to provide a soft ride to the occupants of the vehicle for which we are developing a predictive suspension. The suspension control system makes use of LiDAR point cloud data to build and feed the upcoming terrain features into the suspension model and adjust suspension parameters on the fly. We are using the ISO standard 2631-1-1997 as a reference for the control objective to provide improved comfort in off-road conditions.<br />
 						</p>
 						<!--
 						<ul class="actions">
